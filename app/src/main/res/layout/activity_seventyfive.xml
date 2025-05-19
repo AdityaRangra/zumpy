@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    tools:context="com.RMD.zumpy.com.Zumpy.zumpy.seventyfive"  >
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/white">
+
+        <LinearLayout
+            android:id="@+id/cardViewContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_marginTop="6dp"
+                android:layout_marginBottom="3dp"
+                android:layout_marginStart="7dp"
+                android:layout_marginEnd="7dp"
+                app:cardCornerRadius="7dp">
+
+                <androidx.media3.ui.PlayerView
+                    android:id="@+id/playerView"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:focusable="true"
+                    android:clickable="true"/>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="7dp"
+            android:layout_marginEnd="7dp"
+            android:layout_gravity="center"
+            android:fontFamily="@font/abhaya_libre_medium"
+            android:text="Twisted Head-to-Knee Pose"
+            android:textSize="32dp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="7dp"
+            android:layout_marginEnd="7dp"
+            android:layout_gravity="center"
+            android:fontFamily="serif"
+            android:text="Sanskrit Name: Parivrtta Janu Sirsasana"
+            android:textSize="20dp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="7dp"
+            android:fontFamily="serif"
+            android:layout_marginEnd="7dp"
+            android:layout_marginTop="3dp"
+            android:layout_gravity="center"
+            android:text="@string/benefits_stretches_the_hamstrings_spine_and_shoulders_opens_the_hips_and_helps_stimulate_the_liver_and_the_kidneys"
+            android:textSize="16dp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="7dp"
+            android:layout_marginEnd="7dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="serif"
+            android:text="How to do Twisted Head-to-Knee Pose: "
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="7dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="7dp"
+            android:fontFamily="serif"
+            android:text="@string/step_1_start_in_either_the_bound_angle_or_easy_pose_extend_your_right_leg_out_45_degrees_and_bring_your_left_foot_in_closer_to_your_hips"
+            android:textSize="16dp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="7dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="7dp"
+            android:fontFamily="serif"
+            android:text="@string/step_2_bring_your_right_arm_over_the_right_leg_with_your_right_palm_facing_up_inhale_and_reach_your_left_fingers_up_toward_the_roof_exhale_and_arch_over_to_the_right_slowly_reaching_your_left_fingers_toward_the_right_food_bringing_your_left_arm_directly_over_your_left_ear"
+            android:textSize="16dp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="7dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="7dp"
+            android:fontFamily="serif"
+            android:text="@string/step_3_turn_your_chin_up_and_look_up_at_the_roof_hold_pose_for_20_40_seconds"
+            android:textSize="16dp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="7dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="7dp"
+            android:layout_marginBottom="40dp"
+            android:layout_gravity="center"
+            android:fontFamily="serif"
+            android:text="@string/step_4_exit_the_pose_by_exhaling_and_releasing_the_arms_down_repeat_on_opposite_side"
+            android:textColor="@color/black"
+            android:textSize="16dp" />
+
+    </LinearLayout>
+</ScrollView>

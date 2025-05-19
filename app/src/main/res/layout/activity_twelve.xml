@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    tools:context="com.RMD.zumpy.com.Zumpy.zumpy.twelve"  >
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/white">
+
+        <LinearLayout
+            android:id="@+id/cardViewContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_marginTop="6dp"
+                android:layout_marginBottom="3dp"
+                android:layout_marginStart="7dp"
+                android:layout_marginEnd="7dp"
+                app:cardCornerRadius="7dp">
+
+                <androidx.media3.ui.PlayerView
+                    android:id="@+id/playerView"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:focusable="true"
+                    android:clickable="true"/>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="7dp"
+            android:layout_marginEnd="7dp"
+            android:layout_gravity="center"
+            android:fontFamily="@font/abhaya_libre_medium"
+            android:text="Half Lord of the Fishes Pose"
+            android:textSize="32dp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="7dp"
+            android:layout_marginEnd="7dp"
+            android:layout_gravity="center"
+            android:fontFamily="serif"
+            android:text="Sanskrit Name: Ardha Matsyendrasana"
+            android:textSize="20dp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="7dp"
+            android:fontFamily="serif"
+            android:layout_marginEnd="7dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="3dp"
+            android:text="@string/benefits_stretches_shoulders_hips_and_back_increases_circulation_tones_abdomen_strengthens_obliques"
+            android:textSize="16dp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="7dp"
+            android:layout_marginEnd="7dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="serif"
+            android:text="How to do half lord of the fishes pose: "
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="7dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="7dp"
+            android:fontFamily="serif"
+            android:text="@string/step_1_start_on_the_floor_in_staff_pose_cross_your_right_foot_over_the_outside_of_the_left_thigh_bending_your_knee_so_it_points_towards_the_ceiling_bend_your_left_knee_to_bring_your_left_foot_under_your_right_buttock"
+            android:textSize="16dp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="7dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="7dp"
+            android:fontFamily="serif"
+            android:text="@string/step_2_bend_your_left_arm_upward_and_place_your_left_elbow_outside_of_your_right_knee_and_place_your_right_hand_on_the_floor_behind_you_twist_as_far_to_the_right_as_you_can_while_keeping_both_buttocks_on_the_floor"
+            android:textSize="16dp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="7dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="7dp"
+            android:layout_marginBottom="40dp"
+            android:layout_gravity="center"
+            android:fontFamily="serif"
+            android:text="@string/step_3_hold_pose_for_one_minute_breathing_easily_and_deepening_twist_on_each_exhalation"
+            android:textColor="@color/black"
+            android:textSize="16dp" />
+
+    </LinearLayout>
+</ScrollView>

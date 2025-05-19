@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    tools:context="com.RMD.zumpy.com.Zumpy.zumpy.fortynine"  >
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/white">
+
+        <LinearLayout
+            android:id="@+id/cardViewContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_marginTop="6dp"
+                android:layout_marginBottom="3dp"
+                android:layout_marginStart="7dp"
+                android:layout_marginEnd="7dp"
+                app:cardCornerRadius="7dp">
+
+                <androidx.media3.ui.PlayerView
+                    android:id="@+id/playerView"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:focusable="true"
+                    android:clickable="true"/>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="7dp"
+            android:layout_marginEnd="7dp"
+            android:layout_gravity="center"
+            android:fontFamily="@font/abhaya_libre_medium"
+            android:text="Upward Bow"
+            android:textSize="32dp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="7dp"
+            android:layout_marginEnd="7dp"
+            android:layout_gravity="center"
+            android:fontFamily="serif"
+            android:text="Sanskrit Name: Urdhva Dhanurasana"
+            android:textSize="20dp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="7dp"
+            android:fontFamily="serif"
+            android:layout_marginEnd="7dp"
+            android:layout_marginTop="3dp"
+            android:layout_gravity="center"
+            android:text="@string/benefits_good_relief_for_back_pain_helps_stretch_the_lungs_and_chest_and_strengthens_the_legs_abdomen_buttocks_arms_and_wrists_helps_improve_blood_circulation_to_the_entire_body"
+            android:textSize="16dp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="7dp"
+            android:layout_marginEnd="7dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="serif"
+            android:text="How to do wheel pose:"
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="7dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="7dp"
+            android:fontFamily="serif"
+            android:text="@string/step_1_start_lying_flat_on_your_back_on_a_yoga_mat_with_your_arms_at_your_sides_bend_then_knees_and_place_arms_up_overhead"
+            android:textSize="16dp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="7dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="7dp"
+            android:fontFamily="serif"
+            android:text="@string/step_2_bend_your_elbows_and_place_palms_on_floor_on_either_side_of_your_head_extending_elbows_upward"
+            android:textSize="16dp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="7dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="7dp"
+            android:fontFamily="serif"
+            android:text="@string/step_3_inhale_and_lift_your_shoulders_off_the_yoga_mat_by_pressing_palms_against_the_floor_and_lifting_your_hips_toward_the_roof_as_you_lift_your_body_off_the_floor_take_care_to_not_put_any_pressure_on_the_head_or_neck_once_you_are_raised_you_can_allow_your_head_to_drop_back_loosely"
+            android:textSize="16dp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="7dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="7dp"
+            android:fontFamily="serif"
+            android:text="Step 4: Hold position for 10-50 seconds, breathing normally."
+            android:textSize="16dp"
+            android:textColor="@color/black"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="7dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="7dp"
+            android:layout_marginBottom="40dp"
+            android:layout_gravity="center"
+            android:fontFamily="serif"
+            android:text="Step 5: Exit pose by slowly lowering body back down to mat."
+            android:textColor="@color/black"
+            android:textSize="16dp" />
+
+    </LinearLayout>
+</ScrollView>

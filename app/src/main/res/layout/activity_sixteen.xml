@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    tools:context="com.RMD.zumpy.com.Zumpy.zumpy.sixteen"  >
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/white">
+
+        <LinearLayout
+            android:id="@+id/cardViewContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_marginTop="6dp"
+                android:layout_marginBottom="3dp"
+                android:layout_marginStart="7dp"
+                android:layout_marginEnd="7dp"
+                app:cardCornerRadius="7dp">
+
+                <androidx.media3.ui.PlayerView
+                    android:id="@+id/playerView"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:focusable="true"
+                    android:clickable="true"/>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="7dp"
+            android:layout_marginEnd="7dp"
+            android:layout_gravity="center"
+            android:fontFamily="@font/abhaya_libre_medium"
+            android:text="Balancing Table Top Pose"
+            android:textSize="32dp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="7dp"
+            android:layout_marginEnd="7dp"
+            android:layout_gravity="center"
+            android:fontFamily="serif"
+            android:text="Sanskrit Name: Dandayamana Bharmanasana"
+            android:textSize="20dp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="7dp"
+            android:fontFamily="serif"
+            android:layout_marginTop="3dp"
+            android:layout_marginEnd="7dp"
+            android:layout_gravity="center"
+            android:text="@string/benefits_builds_core_and_lower_back_strength_while_bringing_flexibility_to_the_spine_shoulders_and_hips_and_gently_stretching_the_torso_the_challenge_of_balancing_also_helps_to_improve_focus_coordination_and_overall_physical_equilibrium"
+            android:textSize="16dp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="7dp"
+            android:layout_marginEnd="7dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="serif"
+            android:text="How to do balancing table pose"
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="7dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="7dp"
+            android:fontFamily="serif"
+            android:text="@string/step_1_start_in_table_pose_imagine_pulling_your_belly_button_into_your_spine_without_arching_your_back_extend_your_right_leg_straight_out_behind_you_keeping_your_spine_straight_and_strong"
+            android:textSize="16dp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:layout_marginStart="7dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="7dp"
+            android:fontFamily="serif"
+            android:text="@string/step_2_with_your_abdominal_muscles_engaged_reach_your_left_arm_forward_at_shoulder_height_parallel_to_the_ground_imagine_a_cord_pulling_your_left_arm_forward_and_your_right_leg_straight_backward_keeping_your_spine_straight"
+            android:textSize="16dp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="7dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="7dp"
+            android:layout_marginBottom="40dp"
+            android:layout_gravity="center"
+            android:fontFamily="serif"
+            android:text="@string/step_3_hold_for_a_count_of_10_exhale_and_release_back_to_table_pose_repeat_on_opposite_side"
+            android:textColor="@color/black"
+            android:textSize="16dp" />
+
+    </LinearLayout>
+</ScrollView>

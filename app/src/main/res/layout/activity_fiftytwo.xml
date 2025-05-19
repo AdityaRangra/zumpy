@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    tools:context="com.RMD.zumpy.com.Zumpy.zumpy.fiftytwo"  >
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/white">
+
+        <LinearLayout
+            android:id="@+id/cardViewContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_marginTop="6dp"
+                android:layout_marginBottom="3dp"
+                android:layout_marginStart="7dp"
+                android:layout_marginEnd="7dp"
+                app:cardCornerRadius="7dp">
+
+                <androidx.media3.ui.PlayerView
+                    android:id="@+id/playerView"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:focusable="true"
+                    android:clickable="true"/>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="7dp"
+            android:layout_marginEnd="7dp"
+            android:layout_gravity="center"
+            android:fontFamily="@font/abhaya_libre_medium"
+            android:text="One-Legged King Pigeon Pose"
+            android:textSize="32dp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="7dp"
+            android:layout_marginEnd="7dp"
+            android:layout_gravity="center"
+            android:fontFamily="serif"
+            android:text="Sanskrit Name: Eka Pada Rajakapotasana I"
+            android:textSize="20dp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="7dp"
+            android:fontFamily="serif"
+            android:layout_marginEnd="7dp"
+            android:layout_marginTop="3dp"
+            android:layout_gravity="center"
+            android:text="@string/flexibility_and_stretches_the_thighs_groins_and_psoas_abdomen_chest_and_shoulders_and_neck_opens_the_chest_hips_and_shoulders_stimulates_the_abdominal_organs_and_can_help_solve_urinary_disorders_by_increasing_circulation_to_that_region_traditionally_believed_to_help_curb_sexual_desire_the_one_legged_king_pigeon_pose_is_also_excellent_prep_for_the_more_challenging_king_pigeon_pose"
+            android:textSize="16dp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="7dp"
+            android:layout_marginEnd="7dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="serif"
+            android:text="How to do cow pose: "
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="7dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="7dp"
+            android:fontFamily="serif"
+            android:text="@string/step_1_from_pigeon_pose_lift_your_back_leg_so_that_the_sole_of_your_foot_reaches_towards_the_back_of_your_head_lift_your_arms_high_in_the_air_then_reach_back_and_hold_sole_of_foot_to_back_of_head"
+            android:textSize="16dp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="7dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="7dp"
+            android:layout_marginBottom="40dp"
+            android:layout_gravity="center"
+            android:fontFamily="serif"
+            android:text="@string/step_2_hold_pose_for_20_60_seconds_then_release_back_foot_down_to_ground_exit_to_either_a_deep_lunge_pose_or_to_table_top_pose"
+            android:textColor="@color/black"
+            android:textSize="16dp" />
+
+    </LinearLayout>
+</ScrollView>

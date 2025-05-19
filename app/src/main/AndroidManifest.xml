@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.RMD.zumpy">
+
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+        tools:targetApi="31">
+        <activity
+            android:name="com.Zumpy.zumpy.diet_five"
+            android:exported="false" />
+        <activity
+            android:name="com.Zumpy.zumpy.diet_four"
+            android:exported="false" />
+        <activity
+            android:name="com.Zumpy.zumpy.diet_three"
+            android:exported="false" />
+        <activity
+            android:name="com.Zumpy.zumpy.diet_two"
+            android:exported="false" />
+        <activity
+            android:name="com.Zumpy.zumpy.diet_one"
+            android:exported="false" />
+        <activity
+            android:name="com.Zumpy.zumpy.store"
+            android:exported="false" />
+        <activity
+            android:name="com.Zumpy.zumpy.diet"
+            android:exported="false" />
+        <activity
+            android:name="com.Zumpy.zumpy.consult"
+            android:exported="false" />
+        <activity
+            android:name="com.Zumpy.zumpy.seventyfive"
+            android:exported="false" />
+        <activity
+            android:name="com.Zumpy.zumpy.seventyfour"
+            android:exported="false" />
+        <activity
+            android:name="com.Zumpy.zumpy.seventythree"
+            android:exported="false" />
+        <activity
+            android:name="com.Zumpy.zumpy.seventytwo"
+            android:exported="false" />
+        <activity
+            android:name="com.Zumpy.zumpy.seventyone"
+            android:exported="false" />
+        <activity
+            android:name="com.Zumpy.zumpy.seventy"
+            android:exported="false" />
+        <activity
+            android:name="com.Zumpy.zumpy.sixtynine"
+            android:exported="false" />
+        <activity
+            android:name="com.Zumpy.zumpy.sixtyeight"
+            android:exported="false" />
+        <activity
+            android:name="com.Zumpy.zumpy.sixtyseven"
+            android:exported="false" />
+        <activity
+            android:name="com.Zumpy.zumpy.sixtysix"
+            android:exported="false" />
+        <activity
+            android:name="com.Zumpy.zumpy.sixtyfive"
+            android:exported="false" />
+        <activity
+            android:name="com.Zumpy.zumpy.sixtyfour"
+            android:exported="false" />
+        <activity
+            android:name="com.Zumpy.zumpy.sixtythree"
+            android:exported="false" />
+        <activity
+            android:name="com.Zumpy.zumpy.sixtytwo"
+            android:exported="false" />
+        <activity
+            android:name="com.Zumpy.zumpy.sixtyone"
+            android:exported="false" />
+        <activity
+            android:name="com.Zumpy.zumpy.sixty"
+            android:exported="false" />
+        <activity
+            android:name="com.Zumpy.zumpy.fiftynine"
+            android:exported="false" />
+        <activity
+            android:name="com.Zumpy.zumpy.fiftyeight"
+            android:exported="false" />
+        <activity
+            android:name="com.Zumpy.zumpy.fiftyseven"
+            android:exported="false" />
+        <activity
+            android:name="com.Zumpy.zumpy.fiftysix"
+            android:exported="false" />
+        <activity
+            android:name="com.Zumpy.zumpy.fiftyfive"
+            android:exported="false" />
+        <activity
+            android:name="com.Zumpy.zumpy.fiftyfour"
+            android:exported="false" />
+        <activity
+            android:name="com.Zumpy.zumpy.fiftythree"
+            android:exported="false" />
+        <activity
+            android:name="com.Zumpy.zumpy.fiftytwo"
+            android:exported="false" />
+        <activity
+            android:name="com.Zumpy.zumpy.fiftyone"
+            android:exported="false" />
+        <activity
+            android:name="com.Zumpy.zumpy.fifty"
+            android:exported="false" />
+        <activity
+            android:name="com.Zumpy.zumpy.fortynine"
+            android:exported="false" />
+        <activity
+            android:name="com.Zumpy.zumpy.fortyeight"
+            android:exported="false" />
+        <activity
+            android:name="com.Zumpy.zumpy.fortyseven"
+            android:exported="false" />
+        <activity
+            android:name="com.Zumpy.zumpy.fortysix"
+            android:exported="false" />
+        <activity
+            android:name="com.Zumpy.zumpy.fortyfive"
+            android:exported="false" />
+        <activity
+            android:name="com.Zumpy.zumpy.fortyfour"
+            android:exported="false" />
+        <activity
+            android:name="com.Zumpy.zumpy.fortythree"
+            android:exported="false" />
+        <activity
+            android:name="com.Zumpy.zumpy.fortytwo"
+            android:exported="false" />
+        <activity
+            android:name="com.Zumpy.zumpy.fortyone"
+            android:exported="false" />
+        <activity
+            android:name="com.Zumpy.zumpy.forty"
+            android:exported="false" />
+        <activity
+            android:name="com.Zumpy.zumpy.thirtynine"
+            android:exported="false" />
+        <activity
+            android:name="com.Zumpy.zumpy.thirtyeight"
+            android:exported="false" />
+        <activity
+            android:name="com.Zumpy.zumpy.thirtyseven"
+            android:exported="false" />
+        <activity
+            android:name="com.Zumpy.zumpy.thirtysix"
+            android:exported="false" />
+        <activity
+            android:name="com.Zumpy.zumpy.thirtyfive"
+            android:exported="false" />
+        <activity
+            android:name="com.Zumpy.zumpy.thirtyfour"
+            android:exported="false" />
+        <activity
+            android:name="com.Zumpy.zumpy.thirtythree"
+            android:exported="false" />
+        <activity
+            android:name="com.Zumpy.zumpy.thirtytwo"
+            android:exported="false" />
+        <activity
+            android:name="com.Zumpy.zumpy.thirtyone"
+            android:exported="false" />
+        <activity
+            android:name="com.Zumpy.zumpy.thirty"
+            android:exported="false" />
+        <activity
+            android:name="com.Zumpy.zumpy.twentynine"
+            android:exported="false" />
+        <activity
+            android:name="com.Zumpy.zumpy.twentyeight"
+            android:exported="false" />
+        <activity
+            android:name="com.Zumpy.zumpy.twentyseven"
+            android:exported="false" />
+        <activity
+            android:name="com.Zumpy.zumpy.twentysix"
+            android:exported="false" />
+        <activity
+            android:name="com.Zumpy.zumpy.twentyfive"
+            android:exported="false" />
+        <activity
+            android:name="com.Zumpy.zumpy.twentyfour"
+            android:exported="false" />
+        <activity
+            android:name="com.Zumpy.zumpy.twentythree"
+            android:exported="false" />
+        <activity
+            android:name="com.Zumpy.zumpy.twentytwo"
+            android:exported="false" />
+        <activity
+            android:name="com.Zumpy.zumpy.twentyone"
+            android:exported="false" />
+        <activity
+            android:name="com.Zumpy.zumpy.twenty"
+            android:exported="false" />
+        <activity
+            android:name="com.Zumpy.zumpy.nineteen"
+            android:exported="false" />
+        <activity
+            android:name="com.Zumpy.zumpy.eighteen"
+            android:exported="false" />
+        <activity
+            android:name="com.Zumpy.zumpy.seventeen"
+            android:exported="false" />
+        <activity
+            android:name="com.Zumpy.zumpy.sixteen"
+            android:exported="false" />
+        <activity
+            android:name="com.Zumpy.zumpy.fifteen"
+            android:exported="false" />
+        <activity
+            android:name="com.Zumpy.zumpy.fourteen"
+            android:exported="false" />
+        <activity
+            android:name="com.Zumpy.zumpy.thirteen"
+            android:exported="false" />
+        <activity
+            android:name="com.Zumpy.zumpy.twelve"
+            android:exported="false" />
+        <activity
+            android:name="com.Zumpy.zumpy.eleven"
+            android:exported="false" />
+        <activity
+            android:name="com.Zumpy.zumpy.ten"
+            android:exported="false" />
+        <activity
+            android:name="com.Zumpy.zumpy.nine"
+            android:exported="false" />
+        <activity
+            android:name="com.Zumpy.zumpy.eight"
+            android:exported="false" />
+        <activity
+            android:name="com.Zumpy.zumpy.seven"
+            android:exported="false" />
+        <activity
+            android:name="com.Zumpy.zumpy.six"
+            android:exported="false" />
+        <activity
+            android:name="com.Zumpy.zumpy.five"
+            android:exported="false" />
+        <activity
+            android:name="com.Zumpy.zumpy.four"
+            android:exported="false" />
+        <activity
+            android:name="com.Zumpy.zumpy.threee"
+            android:exported="false" />
+        <activity
+            android:name="com.Zumpy.zumpy.onee"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name="com.Zumpy.zumpy.two"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name="com.Zumpy.zumpy.dashboard"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name="com.Zumpy.zumpy.verificationotp"
+            android:exported="false" />
+        <activity
+            android:name="com.Zumpy.zumpy.MainActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name="com.Zumpy.zumpy.splashscreen"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <service android:name="com.Zumpy.zumpy.MyFirebaseMessagingService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+
+    </application>
+
+</manifest>

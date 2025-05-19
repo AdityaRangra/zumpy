@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="com.RMD.zumpy.com.Zumpy.zumpy.diet_four">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/abhaya_libre_medium"
+            android:text="Oat Porridge"
+            android:textSize="34dp"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:foregroundGravity="center"
+                android:layout_marginTop="17dp"
+                app:cardCornerRadius="7dp"
+                app:cardElevation="5dp">
+
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="300dp"
+                    android:layout_height="200dp"
+                    app:srcCompat="@drawable/oat" />
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_width="wrap_content"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"
+                android:text="Ingredients for 1 Servings:"/>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="¼ cup
+Rolled Oats"/>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2 tbsp
+Coconut cream"/>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="¼ cup
+Cow milk or nut milk"/>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="¾ cup
+Water"/>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1 tsp
+Chia seeds"/>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1 tsp
+Walnuts chopped"/>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1 tbsp
+Palm sugar or honey"/>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="¼ tsp
+Cinnamon powder"/>
+
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Preparation"/>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="40dp"
+                android:text="@string/in_a_pot_add_the_oats_and_the_water_and_cook_on_a_medium_flame_for_5_minutes_add_the_coconut_milk_and_nut_milk_or_cow_s_milk_and_palm_sugar_and_cook_for_another_2_minutes_if_it_s_too_thick_add_a_little_water_turn_off_the_flame_add_chia_seeds_and_walnuts_and_mix_well_if_using_honey_just_add_it_when_the_heat_has_cooled_down_and_ready_to_eat"/>
+
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>

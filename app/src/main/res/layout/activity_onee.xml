@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+ <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    tools:context="com.RMD.zumpy.com.Zumpy.zumpy.onee"  >
+
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:id="@+id/cardViewContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="3dp"
+            android:layout_marginStart="7dp"
+            android:layout_marginEnd="7dp"
+            app:cardCornerRadius="7dp">
+
+            <androidx.media3.ui.PlayerView
+                android:id="@+id/playerView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:focusable="true"
+                android:clickable="true"/>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="7dp"
+        android:fontFamily="@font/abhaya_libre_medium"
+        android:text="Mountain pose"
+        android:textSize="32dp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="7dp"
+        android:fontFamily="serif"
+        android:text="Sanskrit Name: Tadasana"
+        android:textSize="20dp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="3dp"
+        android:fontFamily="serif"
+        android:layout_marginEnd="7dp"
+        android:text="@string/benefits_the_mountain_pose_is_generally_the_starting_position_for_all_standing_yoga_poses_and_the_first_pose_in_the_sun_salutation_it_is_also_sometimes_known_as_the_resting_pose_and_is_a_great_neutral_position_as_well_as_a_good_tool_for_improving_posture"
+        android:textSize="16dp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="5dp"
+        android:fontFamily="serif"
+        android:text="How to do mountain pose: "
+        android:textStyle="bold"
+        android:textSize="16dp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:fontFamily="serif"
+        android:text="@string/step_1_start_by_standing_with_your_feet_close_together_so_that_your_big_toes_touch_but_with_your_heels_just_slightly_apart_rock_slowly_and_gently_back_and_forth_or_side_toside_as_needed_until_your_weight_is_evenly_distributed_over_your_feet"
+        android:textSize="16dp"
+        android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="7dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="5dp"
+            android:fontFamily="serif"
+            android:text="@string/step_2_relax_your_arms_and_face_your_palms_forward_in_a_gesture_of_openness"
+            android:textSize="16dp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="7dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="5dp"
+            android:fontFamily="serif"
+            android:text="@string/step_3_imagine_a_cord_passing_up_through_your_feet_and_through_the_back_of_your_skull_pulling_you_into_a_straight_line"
+            android:textSize="16dp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="7dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="5dp"
+            android:fontFamily="serif"
+android:text="@string/step_4_pull_your_shoulder_blades_back_towards_each_other_as_you_feel_your_tailbone_pulling_down_towards_the_ground"
+            android:textSize="16dp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="7dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="5dp"
+            android:fontFamily="serif"
+android:text="@string/step_5_hold_the_pose_for_30_seconds_to_1_minute_breathing_easily"
+            android:textSize="16dp"
+            android:layout_marginBottom="40dp"
+            android:textColor="@color/black"/>
+
+
+
+</LinearLayout>
+    </ScrollView>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/abhaya_libre_medium</item>
+        <item>@font/allura</item>
+        <item>@font/amethysta</item>
+        <item>@font/average</item>
+        <item>@font/beau_rivage</item>
+        <item>@font/biz_udpmincho_bold</item>
+    </array>
+</resources>

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="com.RMD.zumpy.com.Zumpy.zumpy.diet_three">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/abhaya_libre_medium"
+            android:text="Yellow Dosa"
+            android:textSize="34dp"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:foregroundGravity="center"
+                android:layout_marginTop="17dp"
+                app:cardCornerRadius="7dp"
+                app:cardElevation="5dp">
+
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="300dp"
+                    android:layout_height="200dp"
+                    app:srcCompat="@drawable/dosa" />
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_width="wrap_content"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"
+                android:text="Ingredients for 4-5 Servings:"/>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1 cup
+Uncooked White Rice"/>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1/2 cup
+Toor daal"/>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1/2 cup
+Split Yellow Peas"/>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1/2 cup
+Mung beans"/>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1/2 cup
+Urad daal"/>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1 tsp
+Turmeric Powder"/>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1 tsp
+Sea Salt"/>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3 stalks
+Curry Leaves"/>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3 tbsp
+Cilantro"/>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2 tbsp
+Parsley"/>
+
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Preparation"/>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="40dp"
+                android:text="@string/wash_the_white_rice_toor_daal_split_yellow_pea_mung_beans_and_urad_daal_soak_overnight_in_6_cups_of_fresh_water_on_the_following_morning_blend_the_mixture_with_some_of_the_water_used_for_soaking_until_you_get_a_pancake_like_batter_add_more_water_if_necessary_during_blending_chop_all_the_herbs_curry_leaves_cilantro_parsley_and_add_to_the_batter_together_with_the_turmeric_powder_mix_well_heat_a_crepe_pan_until_it_is_very_hot_pour_1_2_cup_of_the_batter_into_the_middle_of_the_pan_use_the_back_of_a_spoon_and_quickly_spread_the_batter_in_circular_motions_until_you_get_a_thin_crepe_cover_with_a_lid_and_cook_for_1_2_minutes_remove_the_lid_and_drizzle_1_2_tsp_of_ghee_or_coconut_oil_over_the_dosa_flip_the_dosa_and_let_it_cook_for_another_30_seconds_enjoy_it_with_your_favorite_chutney"/>
+
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>

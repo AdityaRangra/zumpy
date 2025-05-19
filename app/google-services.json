@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "298280899568",
+    "project_id": "zumpy-431ae",
+    "storage_bucket": "zumpy-431ae.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:298280899568:android:b387a3d0e45383fd2cc335",
+        "android_client_info": {
+          "package_name": "com.RMD.zumpy"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5r2CDXanRWXyzvlmGLygf5GEdvZJC8rc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
